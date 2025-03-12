@@ -1,0 +1,183 @@
+html, body {
+    height: 100%; /* Garante que o body e html ocupem toda a altura da página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    background-color: #01384a;
+    padding: 10px;
+    font-size: 30px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 12px;
+}
+nav ul li a:hover {
+    background-color: #00ddff;
+    border-radius: 5px;
+}
+nav img {
+    height: 40px; /* Ajuste o tamanho da logo */
+    margin-right: 15px; /* Espaço entre a logo e o menu */
+}
+
+.header {
+    display: flex;
+    justify-content: center; /* Centraliza no eixo horizontal */
+    align-items: center; /* Centraliza no eixo vertical */
+    height: 100px; /* Ajuste conforme necessário */
+    background-color: #51c6e0; /* Apenas para visualização */
+    color: rgb(42, 59, 67);
+}
+
+.header img{
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aae5f3;
+    padding: 10px;
+    text-align: center;
+}
+
+.content h2 {
+    max-width: 800px;
+    margin: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.content strong {
+    font-weight: bold; /* Garante que fique negrito */
+}
+
+.content img-content {
+    margin-top: 100px; /* Espaço entre o texto e a imagem */
+    height: 300px;
+}
+
+.content h3 {
+    max-width: 800px;
+    margin: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centraliza no eixo horizontal */
+    align-items: center; /* Centraliza no eixo vertical */
+    height: 100px; /* Ajuste conforme necessário */
+    background-color: #51c6e0;
+    color: rgb(42, 59, 67);
+    font-size: 20px;
+    width: 100%;
+}
+
+.img-content2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.content-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aae5f3;
+    padding: 50px; /* Adiciona espaço interno */
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse; /* Garante que o fundo da tabela se mantenha contínuo */
+    margin-bottom: 10px;
+}
+td, th {
+    padding: 30px; /* Ajusta o espaço dentro das células */
+}
+
+table caption{
+    align-items: center;
+    background-color: rgb(0, 60, 60);
+    color: white;
+}
+table thead th{
+    align-items: center;
+    background-color: rgb(0, 60, 60);
+    color: white;
+}
+table tbody tr:nth-child(even) {
+    background-color: cadetblue;
+    
+}
+table tbody tr:hover {
+    background-color: rgba(0, 255, 255, 0.266);
+}
+
+.content-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aae5f3;
+    padding: 10px;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 48%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.send {
+    background: #28a745;
+    color: white;
+}
+.clear {
+    background: #dc3545;
+    color: white;
+}
